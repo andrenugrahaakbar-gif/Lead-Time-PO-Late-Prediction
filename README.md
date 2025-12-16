@@ -3,6 +3,8 @@
 Dashboard analitik berbasis Streamlit untuk memprediksi **Lead Time** dan **kemungkinan keterlambatan Purchase Order (PO)** menggunakan machine learning.  
 Data yang digunakan bersifat **sintetis**, dibangkitkan secara programatik menggunakan library [`Faker`](https://faker.readthedocs.io/), dan **dirancang mengikuti logika bisnis nyata** guna menciptakan skenario yang realistis—termasuk variasi lead time berdasarkan kategori produk, region supplier, dan tingkat keandalan supplier.
 
+Live Demo : https://lead-time-po-late-prediction.streamlit.app/
+
 ---
 
 ## 🎯 Tujuan
