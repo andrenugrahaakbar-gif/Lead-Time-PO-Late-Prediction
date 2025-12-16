@@ -1,0 +1,8 @@
+[
+  "Quantity_Ordered",
+  "Supplier_Avg_LT",
+  "Expected_Lead_Time",
+  "Order_Month",
+  "Supplier_ID",
+  "Supplier_Late_Rate"
+]
