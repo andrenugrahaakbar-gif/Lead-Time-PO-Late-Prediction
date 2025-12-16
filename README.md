@@ -7,13 +7,13 @@ Live Demo : https://lead-time-po-late-prediction.streamlit.app/
 
 ---
 
-## 🎯 Tujuan
+## Tujuan
 - Memprediksi **lead time aktual** sebelum PO dikirim.
 - Memprediksi **probabilitas keterlambatan (Is Late)** suatu PO.
 - Memberikan **rekomendasi berbasis risiko** dan visualisasi **performa historis supplier**.
 - Menghitung metrik operasional kunci seperti **OTIF (On-Time In-Full)**.
 
-> 💡 **Catatan Data**:  
+> **Catatan Data**:  
 > Karena data riil tidak tersedia, dataset dibangkitkan dengan pola bisnis yang masuk akal:
 > - Supplier di region tertentu (misal: "Asia") cenderung memiliki lead time lebih panjang.
 > - Kategori produk seperti "Personal Care" lebih rentan terlambat daripada "Beverage".
@@ -22,7 +22,7 @@ Live Demo : https://lead-time-po-late-prediction.streamlit.app/
 
 ---
 
-## 🧠 Model Machine Learning
+## Model Machine Learning
 
 | Komponen       | Tipe Model      | Algoritma Terbaik | Target                     |
 |----------------|------------------|-------------------|----------------------------|
@@ -32,7 +32,7 @@ Live Demo : https://lead-time-po-late-prediction.streamlit.app/
 > Model dilatih menggunakan fitur yang mencerminkan dinamika bisnis nyata:
 > - **Statistik historis supplier**: `Supplier_Avg_LT`, `Supplier_Late_Rate`, `Supplier_Reliability`
 > - **Karakteristik PO**: `Quantity_Ordered`, `Order_Date`, `Expected_Lead_Time`
-> - **Metadata supplier**: `Category` (Food, Beverage, Household, Personal Care), `Region` (Asia, Europe, Americas), `Base_Price`
+> - **Metadata supplier**: `Category` (Electronic, Chemical, Food, Packaging Service), `Region` (Asia, Europe, Domestic), `Base_Price`
 > - **Encoding kategorikal**: `Supplier_ID_TE` (Target Encoding berbasis performa historis)
 >
 > Pola keterlambatan dan lead time **tidak acak**, melainkan dikendalikan oleh logika generasi data:
