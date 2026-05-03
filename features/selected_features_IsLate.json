@@ -1,8 +1,16 @@
 [
   "Quantity_Ordered",
-  "Supplier_Avg_LT",
+  "Base_Price",
   "Expected_Lead_Time",
+  "Supplier_Avg_LT",
+  "Supplier_Late_Rate",
+  "Supplier_Late_Severity",
+  "Supplier_Defect_Rate",
+  "Supplier_Reliability",
+  "Order_Year",
   "Order_Month",
-  "Supplier_ID",
-  "Supplier_Late_Rate"
+  "Order_Quarter",
+  "Category",
+  "Region",
+  "Supplier_ID"
 ]
